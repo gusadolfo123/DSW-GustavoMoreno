@@ -11,8 +11,18 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1200px;
-  background-color: coral;
+  background-color: #ffffff;
   padding: 1em;
+}
+
+/* BEGIN NAVBAR */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "Franklin Gothic Heavy";
 }
 
 nav ul {
@@ -25,3 +35,17 @@ nav ul li {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+li > a {
+  text-decoration: none;
+}
+
+li > a:link {
+  color: #005883;
+}
+
+li > a:active {
+  color: #003d5c;
+}
+
+/* END NAVBAR */
