@@ -1,0 +1,27 @@
+/*
+    Estructuras CSS compartidas entre todas las vistas
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(44, 44, 44);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: coral;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: start;
+}
+
+nav ul li {
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
