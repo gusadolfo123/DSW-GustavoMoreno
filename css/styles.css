@@ -13,7 +13,8 @@ h3,
 h4,
 section,
 article,
-picture {
+picture,
+footer {
 	margin: 0px;
 	padding: 0px;
 }
@@ -35,11 +36,12 @@ picture {
 /* IMAGE SECTION */
 .image-section {
 	margin: 0 auto;
-	max-width: 1230px;
+	max-width: 1232px;
 	background-image: url('../img/code.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 300px;
 	text-align: center;
 	display: flex;
@@ -49,7 +51,7 @@ picture {
 
 .image-section img {
 	padding: 0px;
-	height: 260px;
+	height: 200px;
 }
 
 /* BEGIN NAVBAR */
@@ -86,3 +88,14 @@ li > a:active {
 }
 
 /* END NAVBAR */
+
+footer {
+	margin: 0 auto;
+	max-width: 1232px;
+	height: 60px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+}
