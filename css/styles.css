@@ -3,7 +3,7 @@
 */
 
 body {
-  background-color: rgb(44, 44, 44);
+  background-color: #333333;
 }
 
 body,
@@ -113,7 +113,7 @@ footer {
 /* BEGIN ASIDE */
 .aside-tweets {
   max-width: 300px;
-  max-height: 800px;
+  max-height: 600px;
   padding-top: 10px;
   overflow: auto;
 }
@@ -122,7 +122,13 @@ footer {
   padding-left: 10px;
 }
 
-.twitter-timeline {
-  max-height: inherit;
+.footer-content p {
+  font-weight: bold;
+  margin-right: 5px;
 }
 /* END ASIDE */
+
+.color-orange h2 {
+  color: #f47920;
+  font-family: "Franklin Gothic Heavy";
+}
