@@ -1,0 +1,22 @@
+.primary-content {
+  text-align: center;
+  font-family: "Franklin Gothic Book", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.primary-content img {
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.personal-data {
+  margin: 0 auto;
+  text-align: left;
+  width: 320px;
+}
+
+.personal-data ul li {
+  list-style: none;
+}

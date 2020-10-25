@@ -132,3 +132,17 @@ footer {
   color: #f47920;
   font-family: "Franklin Gothic Heavy";
 }
+
+/* subitems */
+.main-item {
+  cursor: pointer;
+}
+
+.main-item:hover {
+  cursor: pointer;
+}
+
+.main-item ul {
+  display: none;
+  flex-direction: column;
+}
