@@ -1,5 +1,9 @@
 .primary-content {
-  background-color: #005883;
-  color: whitesmoke;
+  /* background-color: #005883; */
+  /* color: whitesmoke; */
   padding: 20px;
+  font-family: "Franklin Gothic Book", "Arial Narrow", Arial, sans-serif;
+}
+
+.primary-content p {
 }

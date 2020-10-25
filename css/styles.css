@@ -3,7 +3,7 @@
 */
 
 body {
-	background-color: rgb(44, 44, 44);
+  background-color: rgb(44, 44, 44);
 }
 
 body,
@@ -15,15 +15,15 @@ section,
 article,
 picture,
 footer {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
-	margin: 0 auto;
-	max-width: 1200px;
-	background-color: #ffffff;
-	padding: 1em;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #ffffff;
+  padding: 1em;
 }
 
 /* HEADER */
@@ -35,67 +35,94 @@ footer {
 
 /* IMAGE SECTION */
 .image-section {
-	margin: 0 auto;
-	max-width: 1232px;
-	background-image: url('../img/code.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	height: 300px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  margin: 0 auto;
+  max-width: 1232px;
+  background-image: url("../img/code.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-section img {
-	padding: 0px;
-	height: 200px;
+  padding: 0px;
+  height: 200px;
 }
 
 /* BEGIN NAVBAR */
 nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-left: 80px;
-	padding-right: 80px;
-	font-family: 'Franklin Gothic Heavy';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "Franklin Gothic Heavy";
 }
 
 nav ul {
-	display: flex;
-	justify-content: start;
+  display: flex;
+  justify-content: start;
 }
 
 nav ul li {
-	list-style: none;
-	padding-right: 10px;
-	padding-left: 10px;
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 li > a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 li > a:link {
-	color: #005883;
+  color: #005883;
 }
 
 li > a:active {
-	color: #003d5c;
+  color: #003d5c;
 }
 
 /* END NAVBAR */
 
 footer {
-	margin: 0 auto;
-	max-width: 1232px;
-	height: 60px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: whitesmoke;
+  margin: 0 auto;
+  max-width: 1232px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
 }
+
+.footer-content {
+  font-family: "Franklin Gothic Book", "Arial Narrow", Arial, sans-serif;
+}
+
+.main-page {
+  display: grid;
+  grid-template-columns: auto 300px;
+  grid-template-rows: auto;
+}
+
+/* BEGIN ASIDE */
+.aside-tweets {
+  max-width: 300px;
+  max-height: 800px;
+  padding-top: 10px;
+  overflow: auto;
+}
+
+.twitter-follow-button {
+  padding-left: 10px;
+}
+
+.twitter-timeline {
+  max-height: inherit;
+}
+/* END ASIDE */
