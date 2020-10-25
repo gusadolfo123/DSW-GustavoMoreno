@@ -133,7 +133,7 @@ footer {
   font-family: "Franklin Gothic Heavy";
 }
 
-/* subitems */
+/* BEGIN SUBITENS */
 .main-item {
   cursor: pointer;
 }
@@ -144,5 +144,26 @@ footer {
 
 .main-item ul {
   display: none;
+  position: absolute;
   flex-direction: column;
+  width: 140px;
 }
+
+.main-item:hover ul {
+  display: flex;
+}
+
+.main-item ul li {
+  position: relative;
+  left: -20px;
+  top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(197, 197, 197);
+}
+
+.main-item ul li:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+/* END SUBITENS */
