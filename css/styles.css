@@ -3,9 +3,19 @@
 */
 
 body {
+  background-color: rgb(44, 44, 44);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+section,
+article,
+picture {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(44, 44, 44);
 }
 
 .container {
@@ -13,6 +23,30 @@ body {
   max-width: 1200px;
   background-color: #ffffff;
   padding: 1em;
+}
+
+/* HEADER */
+/* header picture img {
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+} */
+
+/* IMAGE SECTION */
+.image-section {
+  margin: 0 auto;
+  max-width: 1230px;
+  /* background-color: rgb(88, 88, 231); */
+  background-image: url("../img/code.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+
+.image-section img {
+  padding: 0px;
 }
 
 /* BEGIN NAVBAR */
