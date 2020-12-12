@@ -4,6 +4,6 @@
   padding: 20px;
   font-family: "Franklin Gothic Book", "Arial Narrow", Arial, sans-serif;
 }
-
-.primary-content p {
+.font-primary{
+  font-family: "Franklin Gothic Book", "Arial Narrow", Arial, sans-serif !important;
 }
